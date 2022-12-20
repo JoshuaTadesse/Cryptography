@@ -78,7 +78,6 @@ textarea
 .key_div
 {
     display:flex;
-    justify-content: space-around;
 }
 
 .message_div
