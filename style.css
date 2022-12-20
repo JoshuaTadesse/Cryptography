@@ -1,12 +1,12 @@
 html 
 {
     background-color: #0f3d2c;
-    font-family: 'Roboto';
+    font-family: Helvetica, sans-serif;
 }
 
 button 
 {
-    color: #134d37;
+    color: #f4f4f4;
     border-radius: 0.55rem;
     height: 30px;
 }
