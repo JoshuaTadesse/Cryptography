@@ -1,0 +1,105 @@
+html 
+{
+    background-color: #0f3d2c;
+    font-family: 'Druk', druk;
+}
+
+button 
+{
+    color: #134d37;
+    border-radius: 0.55rem;
+    height: 45px;
+}
+
+input
+{
+    border-radius: 0.2rem;
+}
+
+select
+{    
+    color: #134d37;
+    border-radius: 0.55rem;
+    height: 35px;
+    width: 60%;
+}
+
+textarea
+{
+    border-radius: 0.5rem;
+    margin-top: 10px;
+}
+
+.space 
+{
+    background-color: #2ab881;
+    max-width: 800px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 100px auto;
+    padding: 25px;   
+}
+
+.header_div
+{
+    text-align: center;
+    justify-content: center;
+}
+
+.io_div
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.in_div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+.encdec_div
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.key_div
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.message_div
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.submit_button
+{
+    height: 60pt;
+    width: 70%;
+    font-size: large;
+    margin: 2px auto;   
+}
+
+.out_div
+{
+    justify-content: center;
+    min-width: 30%;
+    padding:15px;
+}
+
+.view_div
+{
+    text-align: center;
+}
+
+Foot
