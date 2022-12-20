@@ -13,11 +13,11 @@
             <h1>Encryption Decryption</h1>
             <p> </p>
         </div>
-        <div class="input-output">
+        <div class="io_div">
 
-            <div class="input-div">
+            <div class="in_div">
                 <form id="cryptForm">
-                    <div class="algo-task-div">
+                    <div class="encdec_div">
                         <p>Select the encryption or decryption scheme: </p>
                         <select name="" id="algorithm">
                             <option value="AES">AES</option>
@@ -29,31 +29,30 @@
                             <option value="Decryption">Decrypt</option>
                         </select>
                     </div>
-                    <div class="key-div">
+                    <div class="key_div">
                         <label>Key:</label>
                         <input type="text" name="key" id="key" placeholder="Enter secret key...">
                     </div>
                     <br>
-                    <div class="text-div">
+                    <div class="message_div">
                         <label >Enter the message you want exncrypted or decrypted below:</label>
                         <textarea name="text" id="text" cols="30" rows="10"></textarea> 
                     </div>
-                    <button type="button" class="" id="paste">Paste</button>
+                
                     <br>
                     <br>
-                    
                     <br>
                     <button class="submit_button" type="submit" id="submit">Encrypt</button>
                 </form> 
 
             </div>
-            <div class="output-div">
-                <div class="display-div">
+            <div class="out_div">
+                <div class="view_div">
                     <h3>Output:</h3>
                     <textarea readonly name="result" id="result" cols="30" rows="10">...</textarea>
                 </div>
                 <button id="copy">Copy</button>
-                <p  class="text-div" id="warning"></p>
+                <p  class="message_div" id="warning"></p>
             </div>
 
         </div>
