@@ -13,7 +13,8 @@ button
 
 input
 {
-    border-radius: 0.2rem;
+    border-radius: 0.35rem;
+    height: 15px;
 }
 
 select
@@ -75,7 +76,6 @@ textarea
 .key_div
 {
     display:flex;
-    justify-content: space-evenly;
 }
 
 .message_div
