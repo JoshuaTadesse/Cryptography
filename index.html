@@ -17,14 +17,14 @@
         <div class="io_div">
 
             <div class="in_div">
-                <form id="cryptForm">
+                <form id="mainForm">
                     <div class="encdec_div">
-                        <select name="" id="algorithm">
-                            <option value="AES">AES</option>
-                            <option value="3DES">3DES</option>
-                            <option value="OTP">OTP</option>
+                        <select name="" id="encdec">
+                            <option value="AESenc">AES</option>
+                            <option value="3DESenc">3DES</option>
+                            <option value="OTPenc">OTP</option>
                         </select>
-                        <select name="" id="crypt">
+                        <select name="" id="algo">
                             <option value="Encrypt">Encrypt</option>
                             <option value="Decrypt">Decrypt</option>
                         </select>
@@ -35,20 +35,19 @@
                     </div>
                     <br>
                     <div class="message_div">
-                        <label >Enter the message you want exncrypted or decrypted below:</label>
-                        <textarea name="text" id="text" cols="30" rows="10"></textarea> 
+                        <label >Enter the message you want encrypted or decrypted below:</label>
+                        <textarea name="text" id="message" cols="30" rows="10"></textarea> 
                     </div>
-                    <button type="button" class="" id="paste">Paste</button>
                     <br>
                     <br>
-                    <button class="submit_button" type="submit" id="submit">Encrypt</button>
+                    <button class="submit_button" type="submit" id="submit">Submit</button>
                 </form> 
 
             </div>
             <div class="out_div">
                 <div class="view_div">
                     <h3>Output:</h3>
-                    <textarea readonly name="result" id="result" cols="30" rows="10"></textarea>
+                    <textarea readonly name="view" id="view" cols="30" rows="10"></textarea>
                 </div>
                 <button id="copy">Copy</button>
             </div>
