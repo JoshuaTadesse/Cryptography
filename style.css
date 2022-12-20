@@ -1,7 +1,7 @@
 html 
 {
     background-color: #0f3d2c;
-    font-family: 'Druk', druk;
+    font-family: 'Roboto';
 }
 
 button 
@@ -76,6 +76,7 @@ textarea
 .key_div
 {
     display:flex;
+    justify-content: space-around;
 }
 
 .message_div
