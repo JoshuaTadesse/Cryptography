@@ -59,13 +59,6 @@ let submitButton = document.getElementById("submit")
 
 let crypt = document.getElementById("algo")
 
-//Change event that detects change and uses the 
-//new choice of encrypt or decrypt as a label of the button
-//crypt.addEventListener("change", function(event) {
-    //let newLabel = document.getElementById("crypt").value
-    //submitButton.innerText = newLabel
-})
-
 let cryptForm = document.getElementById('mainForm')
 
 cryptForm.addEventListener('submit', (event)=>{
